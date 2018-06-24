@@ -1,0 +1,33 @@
+twilio:
+  account_sid: XXXXXX
+  auth_token: XXXXXX
+numbers:
+  from: "+330123456789"
+  to: "+330123456789"
+  doctor: "+330123456789"
+sample_patient:
+  name: 'Pauline Neutro'
+  age: 67
+  cancer_type: 'breast cancer'
+  day_of_treatment: 2
+messages:
+  day_1_greeting: >
+    Good morning Ms. Neutro - how do you feel today? :)
+    Please respond using a number from 5 - great to 1 - not so much.
+  day_1_answers:
+    - >
+      Good to hear that! Did you measure your temperature today?
+      Let me know how hot you feel? :)
+    - Ok! Have a nice day, I’ll catch up with you later.
+  day_2_greeting: >
+    Good evening Ms. Neutro - what are you up to today? :)
+    Please tell us how you’re doing using a number from 5 - great to 1 - not so much.
+  day_2_answers:
+    - Sorry to hear that! Did you measure your temperature today?
+    - >
+      Oh! Did you experience dry mouth, thirst,
+      loss of weight or dark color of urine from the last time we spoke?
+      Please respond with a yes or no.
+    - >
+      Ok. I've informed your caring oncologist. We will get in touch shortly.
+      In the meantime tell us about any other problems you might have had.
